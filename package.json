@@ -1,7 +1,6 @@
 {
   "name": "sails-coffee",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "sails with coffee script",
   "keywords": [],
   "scripts": {
@@ -32,8 +31,7 @@
     "type": "git",
     "url": "git://github.com/just-fine/sails-coffee.git"
   },
-  "author": "WittBulter (nanazuimeng123@gmail.com)",
-  "license": "",
+  "license": "MIT",
   "engines": {
     "node": "^9.10"
   }
