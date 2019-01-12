@@ -5,7 +5,9 @@
   "keywords": [],
   "scripts": {
     "start": "cake start",
-    "build": "cake build"
+    "build": "cake build",
+    "commit": "commitizen init cz-conventional-changelog --save --save-exact",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
@@ -30,6 +32,11 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/just-fine/sails-coffee.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "license": "MIT",
   "engines": {
