@@ -1,6 +1,6 @@
 {
   "name": "sails-coffee",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "sails with coffee script",
   "keywords": [],
   "main": "app.js",
