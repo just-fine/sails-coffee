@@ -8,7 +8,6 @@ module.exports.http =
       'compress'
       'poweredBy'
       'request_logger'
-      'api_limit'
       'router'
 #      'www'
 #      'favicon'
