@@ -1,3 +1,3 @@
 
 module.exports.routes =
-  'post /books': 'BooksController.create'
+  'post /api/books': 'BooksController.create'

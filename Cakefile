@@ -11,7 +11,7 @@ task 'mongo', 'lift mongodb with docker', ->
 
 task 'start', 'list sails and watch file', ->
   try
-    instance = execa 'coffee', ['app.coffee', '-wc', '--color']
+    instance = execa 'nodemon', ['app.coffee', '--color']
     log = (s) -> console.log "#{s}"
     instance.stdout.on 'data', log
     instance.stderr.on 'data', log
