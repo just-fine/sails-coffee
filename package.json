@@ -1,6 +1,6 @@
 {
   "name": "sails-coffee",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "sails with coffee script",
   "keywords": [],
   "main": "app.js",
@@ -8,8 +8,7 @@
     "start": "cake start",
     "build": "cake build",
     "mongo": "cake mongo",
-    "commit": "commitizen init cz-conventional-changelog --save --save-exact",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "commit": "commitizen init cz-conventional-changelog --save --save-exact"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
@@ -38,13 +37,13 @@
     "type": "git",
     "url": "git://github.com/just-fine/sails-coffee.git"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "license": "MIT",
   "engines": {
     "node": "^9.10"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
   }
 }
