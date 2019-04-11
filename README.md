@@ -1,6 +1,6 @@
 # sails-coffee
 
-> sails: ^1.1, coffee script: ^2.3
+> sails: ^1.1, coffee script: ^2.3, nodejs >8.1.0
 
 <br/>
 
@@ -35,7 +35,7 @@
   `sails-coffee` is initialized with `@fine.sh/cs`, you can run this command to initialize the project:
 
   ```
-  npx @fine.sh/cs init sails
+  npx @fine.sh/cs init
   ```
 
 <br/>
